@@ -13,6 +13,7 @@
 ## Projects
 
 ### [Project: Hotel Booking Analysis](https://github.com/otto-Choi/Project-hotel_booking)
+- 팀 프로젝트로 수행
 - 호텔 예약 데이터를 기반으로 고객 세분화 및 취소율 분석
 - K-Means 클러스터링을 통한 고객 유형 정의
 - 시각화 결과 및 발표 자료 포함
