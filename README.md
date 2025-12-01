@@ -12,6 +12,13 @@
 
 ## Projects
 
+### [Project: K_REITs](https://github.com/otto-Choi/Project-K_REITs/tree/main)
+- 팀 프로젝트로 수행
+- 적정 내재가치 분석 및 포트폴리오 모델링
+- DCF, DDM, GARCH-M 등 재무 모델과 패널 분석의 결합
+- 분석 코드 파일 및 발표 자료 포함
+
+
 ### [Project: Hotel Booking Analysis](https://github.com/otto-Choi/Project-hotel_booking)
 - 팀 프로젝트로 수행
 - 호텔 예약 데이터를 기반으로 고객 세분화 및 취소율 분석
