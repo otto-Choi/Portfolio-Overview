@@ -56,7 +56,7 @@
 - **핵심 판단** 문제의 본질이 모델 성능이 아니라 **context orchestration**이라면, 해법도 prompt engineering이 아니라 context architecture여야 한다. 단일 도메인 환경에서는 retrieval precision보다 사전 구축된 context consistency가 중요하다고 판단해, Full RAG 대신 **Step 0 context injection (Simplified RAG)** 을 채택했다.
 - **대표 결과** 2시간 분량 강의 음성+PDF 입력 기준 구조화 노트 약 34초 생성, 전체 테스트 LLM 비용 약 $4. Step 0 용어 사전이 있는 항목은 환각 0건(자체 검토 기준).
 - **스택** `FastAPI · SSE · SQLite · Gemini 2.5-flash · PyMuPDF · Vanilla SPA`
-- 🔗 [저장소](https://github.com/otto-Choi/Project_Lecture_Note) · [Live Demo](https://lecturenote.up.railway.app) · Android (Google Play 심사 통과·비공개 테스트 단계)
+- 🔗 [저장소](https://github.com/otto-Choi/Project_Lecture_Note) · [Live Demo](lecture-note-2cb6.onrender.com) · Android (Google Play 심사 통과·비공개 테스트 단계)
 
 ### 3. 퇴직연금 ETF 포트폴리오 최적화 — XAI 기반 위험 개인화
 
@@ -67,7 +67,7 @@
 - **핵심 판단** 퇴직연금의 핵심 비대칭성("손실 후 회복할 시간이 없다")에 맞춰 표준편차 대신 하방공분산 Σ_down(Estrada 2007)을 위험 측도로, 목적함수를 Sortino 비율 최대화로 일관되게 설계. **초기 구현이 설계와 달랐던 5개 지점을 직접 검토로 발견·수정**한 것이 백테스트 신뢰도의 전제였다.
 - **대표 결과** (2016~2025, 38분기 표본외) 원리금보장형 방치 CAGR 1.97% 대비 Step5b **CAGR 6.60% (+4.63%p)**, 소르티노 0.659.
 - **스택** `Python · Black-Litterman · Sortino(SLSQP) · SHAP · pandas`
-- 🔗 [저장소](https://github.com/otto-Choi/Project-Retirement_Pension_RA)
+- 🔗 [저장소](https://github.com/otto-Choi/Project-Retirement_Pension_RA) · [Live Demo](https://web-production-da1b0.up.railway.app/)
 - ⚖️ 모든 출력은 「자본시장법」 제6조에 따른 투자 추천이 아닌 **투자 참고 정보**입니다.
 
 ### 4. 지정학적 리스크 지수(GPR)의 예측력 실패 — 인과 검증
